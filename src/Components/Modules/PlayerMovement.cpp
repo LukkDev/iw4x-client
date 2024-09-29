@@ -334,10 +334,10 @@ namespace Components
 			"The scale applied to the pushback force of a rocket");
 
 		BGPlayerEjection = Game::Dvar_RegisterBool("bg_playerEjection",
-			true, Game::DVAR_CHEAT, "Push intersecting players away from each other");
+			true, Game::DVAR_CODINFO, "Push intersecting players away from each other");
 
 		BGPlayerCollision = Game::Dvar_RegisterBool("bg_playerCollision",
-			true, Game::DVAR_CHEAT, "Push intersecting players away from each other");
+			true, Game::DVAR_CODINFO, "Push intersecting players away from each other");
 
 		BGClimbAnything = Game::Dvar_RegisterBool("bg_climbAnything",
 			false, Game::DVAR_CHEAT, "Treat any surface as a ladder");
